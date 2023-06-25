@@ -35,7 +35,7 @@ def calculate_angle(x_diff, y_diff, previous_angle):
 RESCALE_FACTOR = 2  # x -> x/rescale
 
 # Extracts the tree root from the .xml
-traffic_simulation_path = "C:/Users/tatia/Documents/TFG/TFG Ciudad con Blender/TFG Codigo Blender/aimsunresults/aimsun_prueba2.xml"
+traffic_simulation_path = "//aimsunresults/aimsun_results_8058.xml"
 root_traffic = ET.parse(traffic_simulation_path).getroot()
 
 # The static element of xml
@@ -96,27 +96,25 @@ for frame in frames:
 
                 # bpy.ops.mesh.primitive_cube_add()
                 if color == 0:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/BlueCar2.obj'
+                    file_full_path = '//objects_cars/BlueCar2.obj'
                 elif color == 1:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/BlackCar.obj'
+                    file_full_path = '//objects_cars/BlackCar.obj'
                 elif color == 2:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/CianCar.obj'
+                    file_full_path = '//objects_cars/CianCar.obj'
                 elif color == 3:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/GreenCar.obj'
+                    file_full_path = '//objects_cars/GreenCar.obj'
                 elif color == 4:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/OrangeCar.obj'
+                    file_full_path = '//objects_cars/OrangeCar.obj'
                 elif color == 5:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/PinkCar.obj'
+                    file_full_path = '//objects_cars/PinkCar.obj'
                 elif color == 6:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/PurpleCar.obj'
+                    file_full_path = '//objects_cars/PurpleCar.obj'
                 elif color == 7:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/RedCar.obj'
+                    file_full_path = '//objects_cars/RedCar.obj'
                 elif color == 8:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/YellowCar.obj'
+                    file_full_path = '//objects_cars/YellowCar.obj'
                 else:
-                    file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Tatiana/TFG Codigo/TFG Codigo Blender/objects_cars/WhiteCar.obj'
-
-                # file_full_path = 'C:/Users/tatia/Documents/TFG/TFG Ciudad con Blender/TFG Codigo Blender/objects_cars/BlueCar.obj'
+                    file_full_path = '//objects_cars/WhiteCar.obj'
 
                 imported_obj = bpy.ops.wm.obj_import(filepath=file_full_path)
                 car_obj = bpy.context.active_object
