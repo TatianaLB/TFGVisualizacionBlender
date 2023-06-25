@@ -1,0 +1,266 @@
+{
+    "Crossroads": [
+        {
+            "id": 0,
+            "center_x": 1048,
+            "center_y": 604,
+            "in": {
+                "0": "Reverse",
+                "6": "Direct",
+                "18": "Direct"
+            },
+            "out": {
+                "6": "Reverse",
+                "18": "Reverse"
+            }
+        },
+        {
+            "id": 1,
+            "center_x": 638,
+            "center_y": 586,
+            "in": {
+                "1": "Reverse",
+                "3": "Direct",
+                "5": "Reverse",
+                "16": "Direct"
+            },
+            "out": {
+                "3": "Reverse",
+                "5": "Direct"
+            }
+        },
+        {
+            "id": 2,
+            "center_x": 453,
+            "center_y": 579,
+            "in": {
+                "2": "Reverse",
+                "3": "Reverse",
+                "8": "Direct",
+                "10": "Reverse"
+            },
+            "out": {
+                "2": "Direct",
+                "3": "Direct",
+                "8": "Reverse",
+                "10": "Direct"
+            }
+        },
+        {
+            "id": 3,
+            "center_x": 756,
+            "center_y": 575,
+            "in": {
+                "4": "Reverse",
+                "5": "Direct",
+                "6": "Reverse",
+                "15": "Direct"
+            },
+            "out": {
+                "4": "Direct",
+                "5": "Reverse",
+                "6": "Direct",
+                "15": "Reverse"
+            }
+        },
+        {
+            "id": 4,
+            "center_x": 365,
+            "center_y": 548,
+            "in": {
+                "7": "Reverse",
+                "8": "Reverse",
+                "9": "Direct",
+                "12": "Direct"
+            },
+            "out": {
+                "7": "Direct",
+                "8": "Direct",
+                "9": "Reverse",
+                "12": "Reverse"
+            }
+        },
+        {
+            "id": 5,
+            "center_x": 492,
+            "center_y": 500,
+            "in": {
+                "10": "Direct",
+                "11": "Reverse",
+                "13": "Direct",
+                "21": "Direct"
+            },
+            "out": {
+                "10": "Reverse",
+                "21": "Reverse"
+            }
+        },
+        {
+            "id": 6,
+            "center_x": 377,
+            "center_y": 422,
+            "in": {
+                "12": "Reverse",
+                "14": "Direct",
+                "20": "Direct"
+            },
+            "out": {
+                "12": "Direct",
+                "13": "Direct",
+                "14": "Reverse",
+                "20": "Reverse"
+            }
+        },
+        {
+            "id": 7,
+            "center_x": 769,
+            "center_y": 377,
+            "in": {
+                "15": "Reverse",
+                "18": "Reverse",
+                "24": "Direct",
+                "31": "Direct",
+                "36": "Direct"
+            },
+            "out": {
+                "15": "Direct",
+                "18": "Direct",
+                "19": "Reverse",
+                "24": "Reverse",
+                "31": "Reverse",
+                "36": "Reverse"
+            }
+        },
+        {
+            "id": 8,
+            "center_x": 645,
+            "center_y": 376,
+            "in": {
+                "17": "Reverse",
+                "19": "Reverse",
+                "23": "Direct",
+                "35": "Direct"
+            },
+            "out": {
+                "16": "Direct",
+                "17": "Direct"
+            }
+        },
+        {
+            "id": 9,
+            "center_x": 384,
+            "center_y": 355,
+            "in": {
+                "20": "Reverse",
+                "25": "Direct",
+                "26": "Direct"
+            },
+            "out": {
+                "20": "Direct",
+                "25": "Reverse",
+                "26": "Reverse"
+            }
+        },
+        {
+            "id": 10,
+            "center_x": 512,
+            "center_y": 348,
+            "in": {
+                "21": "Reverse",
+                "27": "Direct",
+                "32": "Direct"
+            },
+            "out": {
+                "21": "Direct",
+                "22": "Direct",
+                "23": "Direct",
+                "27": "Reverse",
+                "32": "Reverse"
+            }
+        },
+        {
+            "id": 11,
+            "center_x": 410,
+            "center_y": 317,
+            "in": {
+                "26": "Reverse",
+                "27": "Reverse",
+                "28": "Direct",
+                "29": "Direct"
+            },
+            "out": {
+                "26": "Direct",
+                "27": "Direct",
+                "28": "Reverse",
+                "29": "Reverse"
+            }
+        },
+        {
+            "id": 12,
+            "center_x": 428,
+            "center_y": 273,
+            "in": {
+                "29": "Reverse",
+                "30": "Direct",
+                "34": "Direct"
+            },
+            "out": {
+                "29": "Direct",
+                "30": "Reverse",
+                "34": "Reverse"
+            }
+        },
+        {
+            "id": 13,
+            "center_x": 530,
+            "center_y": 189,
+            "in": {
+                "32": "Reverse",
+                "33": "Reverse",
+                "34": "Reverse",
+                "38": "Direct",
+                "40": "Direct"
+            },
+            "out": {
+                "32": "Direct",
+                "33": "Direct",
+                "34": "Direct",
+                "38": "Reverse",
+                "40": "Reverse"
+            }
+        },
+        {
+            "id": 14,
+            "center_x": 658,
+            "center_y": 165,
+            "in": {
+                "36": "Reverse",
+                "37": "Reverse",
+                "39": "Direct"
+            },
+            "out": {
+                "35": "Direct",
+                "36": "Direct",
+                "37": "Direct",
+                "39": "Reverse"
+            }
+        },
+        {
+            "id": 15,
+            "center_x": 624,
+            "center_y": 102,
+            "in": {
+                "39": "Reverse",
+                "40": "Reverse",
+                "41": "Reverse",
+                "42": "Direct"
+            },
+            "out": {
+                "39": "Direct",
+                "40": "Direct",
+                "41": "Direct",
+                "42": "Reverse"
+            }
+        }
+    ]
+}
