@@ -15,8 +15,9 @@ Para generar los escenarios urbanos se siguen los siguientes pasos:
 -	Por último, mencionar que no se ha podido subir la carpeta que almacena todos los modelos de edificios en formato OBJ debido a que la mayoría son muy pesados.
 
 Finalmente, algunos ejemplos de los resultados obtenido en Blender:
-![image](https://github.com/TatianaLB/TFGVisualizacionBlender/assets/98090265/c5c7b1ef-e303-4706-a31d-0929869ec21b)
+![image](https://github.com/TatianaLB/TFGVisualizacionBlender/assets/98090265/f07eae34-4000-43ab-b63b-4db85ad66967)
+![image](https://github.com/TatianaLB/TFGVisualizacionBlender/assets/98090265/6cb6d2c8-9c8d-49f5-a8b6-ee91f44e0326)
+![image](https://github.com/TatianaLB/TFGVisualizacionBlender/assets/98090265/168a9921-9c03-4772-8abc-4a07f8fa1d4a)
 
-![image](https://github.com/TatianaLB/TFGVisualizacionBlender/assets/98090265/7f3a0f1f-c922-4055-841c-5a86bb3c8714)
 
-![image](https://github.com/TatianaLB/TFGVisualizacionBlender/assets/98090265/4f0bb53a-3ef7-4592-8d1c-6f115776e90c)
+
