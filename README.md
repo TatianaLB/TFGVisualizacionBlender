@@ -11,6 +11,8 @@ Para generar los escenarios urbanos se siguen los siguientes pasos:
 - Construcción de los edificios a partir de la biblioteca que ofrece el addon BlenderKit. Se eligen 20 tipos de modelos distintos de edificios creados por la comunidad de usuarios de Blender y por artistas profesionales. Cada modelo se exporta a un archivo en formato OBJ, de manera que esté accesible cuando sea necesario. 
 -	Construcción del terreno partiendo de una malla de tipo plano. Para la creación de la forma del terreno se hace uso de la herramienta de sistemas de partículas que ofrece Blender. Por último, se genera un material customizado mediante los nodos de geometría buscando una apariencia realista. 
 -	Visualización de la simulación del tráfico mediante la inserción de fotogramas clave en Blender. También ha sido necesaria la creación de una función general que se encargue de calcular el ángulo de giro de los vehículos. Por otro lado, para definir el modelo de los vehículos se ha utilizado el addon BlenderKit.
+-	También se añade el fichero ExecuteBlenderOut.py, usado para ejecutar un fichero Python en Blender desde fuera.
+-	Por último, mencionar que no se ha podido subir la carpeta que almacena todos los modelos de edificios en formato OBJ debido a que la mayoría son muy pesados.
 
 Finalmente, algunos ejemplos de los resultados obtenido en Blender:
 ![image](https://github.com/TatianaLB/TFGVisualizacionBlender/assets/98090265/c5c7b1ef-e303-4706-a31d-0929869ec21b)
