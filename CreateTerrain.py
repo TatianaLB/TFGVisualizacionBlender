@@ -13,7 +13,7 @@ camera_width = 1280
 camera_height = 720
 terrain_obj.dimensions = (camera_width/RESCALE_FACTOR,camera_height/RESCALE_FACTOR,0)
 # Location should be half the dimensions
-terrain_obj.location = (camera_width/(2*RESCALE_FACTOR),camera_height/(2*RESCALE_FACTOR),-0.5)
+terrain_obj.location = (camera_width/(2*RESCALE_FACTOR),camera_height/(2*RESCALE_FACTOR),-2)
 terrain_obj.name = "Terrain"
 
 # Link the terrain to its collection
