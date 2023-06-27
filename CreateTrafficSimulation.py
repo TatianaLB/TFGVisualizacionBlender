@@ -16,7 +16,7 @@ def calculate_angle(x_diff, y_diff, previous_angle):
     if x_diff < 0 and y_diff == 0:
         angle = -180
     if x_diff > 0 and y_diff > 0:
-        if angle_anterior < 0:
+        if previous_angle < 0:
             angle = -270 - degrees(atan(x_diff/y_diff))
         else:
             angle = 90 - degrees(atan(x_diff/y_diff))
